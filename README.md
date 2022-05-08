@@ -1,7 +1,6 @@
 # render-atl-workshop
 A workshop for RenderATL 2022
 
-
 **Workshop Skeleton**
 
 Topic: Building a TypeScript Project from Scratch
