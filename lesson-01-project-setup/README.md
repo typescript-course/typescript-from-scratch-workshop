@@ -1,0 +1,15 @@
+1. Getting to know your tools (tsc, intellisense) (20mins)
+    - outline
+        - intro
+            - What is TypeScript?
+            - tools needed to use it
+            - how it differs from JS
+            - what you can use to build it
+            - playground
+        - challenge
+            - set up your IDE
+            - run code, intellisense, errors
+        - solution
+            - show them
+        - extra credit
+            - extra extensions? set up snippets?
