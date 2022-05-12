@@ -1,5 +1,4 @@
-# render-atl-workshop
-A workshop for RenderATL 2022
+# typescript-project-from-scratch
 
 **Workshop Skeleton**
 
