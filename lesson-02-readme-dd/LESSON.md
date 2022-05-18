@@ -12,15 +12,17 @@ This is a great approach to use when building a library or API that others will 
 
 ### Challenge
 
-Similar to Duolingo, we're building a streak counter library. With only that piece of information, write a `README.md` for this library using the file `readme-challenge.md` in this folder.
+Similar to Duolingo, we're building a streak counter library. With only that piece of information, write a `README.md` for this library (NOTE: use the blank `README.md` in this folder).
+
+#### Extra Credit
+
+Looking for an extra challenge? Spice up your `README.md` with something a little fancier. Maybe a table of contents? Maybe a logo? Here are a couple examples to give you some inspiration:
+
+- https://github.com/othneildrew/Best-README-Template
+- https://github.com/date-fns/date-fns
 
 ### Solution
 
-Nice work! There are various answers to this challenge. Here is what mine looks like:
+Nice work! There is no one correct answer but here is what mine looks like: https://gist.github.com/jsjoeio/e4d5ab11d900ab6a4377772ace0af128
 
-TODO@jsjoeio - add final `README.md` here.
-
-### Extra Credit
-
-Looking for an extra challenge? Spice up your `README.md` with something a little fancier. Maybe a table of contents? Maybe a logo? Here are a couple examples to give you some inspiration:
-TODO@jsjoeio - add resources for readme templates and great examples.
+We'll discuss as a group after the challenge.
