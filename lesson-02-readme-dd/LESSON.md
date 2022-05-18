@@ -20,7 +20,7 @@ Nice work! There is no one correct answer but here is what mine looks like: http
 
 We'll discuss as a group after the challenge.
 
-#### Extra Credit
+### Extra Credit
 
 Looking for an extra challenge? Spice up your `README.md` with something a little fancier. Maybe a table of contents? Maybe a logo? Here are a couple examples to give you some inspiration:
 
