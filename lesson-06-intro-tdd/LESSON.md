@@ -34,7 +34,6 @@ _Source: https://sites.google.com/site/tddproblems/all-problems-1/word-wrapping_
 ### Solution
 
 Let's share solutions. Here is what I came up with: https://gist.github.com/jsjoeio/0db06be942690a67f55ce1e971b6d82e
-TODO@jsjoeio - implement
 
 ### Extra Credit
 
