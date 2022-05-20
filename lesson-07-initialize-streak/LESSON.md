@@ -14,6 +14,12 @@ Using TDD write a function that passes these tests:
 
 TODO@jsjoeio - add these tests
 
+HINTS:
+- give them a `src/index.ts`
+- and a `__tests__/index.test.ts` 
+this will get them going
+add hint about mocking local storage
+
 ### Solution
 
 Here is what mine looks like.
