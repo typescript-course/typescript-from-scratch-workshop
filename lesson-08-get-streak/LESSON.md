@@ -4,23 +4,50 @@ The goal of this lesson is write the logic that gets the streak if it already ex
 
 ## Intro
 
-TODO redo intro, talk about try/catch, error unknown 
+There are two problems with our current implementations:
 
-In the previous lesson, we covered intializing the streak. What if it already exists though?
+1. We're not actually storing the streak in `localStorage`
+2. We always create a new streak
 
-Well, that's what this challenge is for! We need to get the streak if it's been initialized, otherwise initialize a fresh one.
+Oops!
 
-TODO@jsjoeio - mention something about TS conepts learning (type casting with JSON, getting data from localStorage)
+Thinking back to our flow chart, this is our library should work under the hood:
+
+- check if streak already exists - if so, return it
+- if not, initialize a new one
+
+Let's make it happen!
 
 ### Challenge
 
-Using TDD, write a function that gets the streak from localStorage and returns it.
-// Store in localStorage, not even using it
-// get from localStorage
+Using TDD, complete these tests by making the appropriate changes to your `streakCounter` function:
+
+```typescript
+// File: __tests__/index.test.ts
+describe("streakCounter", () => {
+  // previous tests omitted to keep code block short
+  it("should store the streak in localStorage", () => {
+    // TODO: implement
+  });
+
+  // Separate suite to test different scenario
+  describe("with a pre-populated streak", () => {
+    // TODO: populate localStorage with a streak
+    it("should return the streak from localStorage", () => {
+      // TODO: implement
+    });
+  });
+});
+```
+
+Hints:
+
+- use a `try/catch` block when parsing JSON
+- don't forget to clear `localStorage` after each test
 
 ### Solution
 
-Here is how I tackled it.
+Here is how I tackled it: https://gist.github.com/jsjoeio/e83d86634bb71d3fc0db176256f7356a
 
 ### Extra Credit
 
