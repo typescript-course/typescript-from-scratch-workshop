@@ -10,11 +10,11 @@ We'll use CodeSandbox to iterate quickly and test this baby out.
 
 ### Challenge
 
-Using this CodeSandbox template, add your streak counter library to the project and show the streak in the UI.
+Using this [CodeSandbox template](https://codesandbox.io/s/streak-counter-template-ts-course-tlfxfr?file=/src/App.tsx), add your streak counter library to the project and show the streak in the UI.
 
 ### Solution
 
-Here is what mine looks like: link
+Here is what mine looks like: https://codesandbox.io/s/streak-counter-solution-8bj1wc?file=/src/App.tsx
 
 ### Extra Credit
 
