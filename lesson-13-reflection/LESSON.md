@@ -22,4 +22,4 @@ Now let's share with the entire group.
 
 ### Extra Credit
 
-Bonus discussion quesiton: how do you feel about TS so far?
+Bonus discussion quesiton: how do you feel about TS so far? Do you think you'll adopt it in your organization or personal projects?
