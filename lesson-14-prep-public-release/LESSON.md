@@ -9,6 +9,8 @@ When you're publishing code to the outside world for them to consume, there are 
 We'll also talk about mistakes to avoid, and tips for success.
 
 TODO@jsjoeio - add those in
+// how to expose types
+// reminder about exporting...
 
 ### Challenge
 
@@ -16,6 +18,11 @@ Using `microbundle`, prep your package by doing the following:
 
 1. something
 2. something
+
+// package.json
+// edit readme
+// jest.config.cjs?
+// npmignore
 
 ### Solution
 
