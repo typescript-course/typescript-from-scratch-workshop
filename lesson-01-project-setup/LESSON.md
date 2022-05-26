@@ -1,14 +1,14 @@
 ## Project Setup
 
-The goal of this section is to get to know your tools(tsc, intelliense, etc.)
+The goal of this section is to get to know your tools.
 
 ### Intro
 
-TypeScript is "JavaScript with syntax for types" as [described on official website](https://www.typescriptlang.org/). The fastest way to use it is online with the TypeScript Playground: https://www.typescriptlang.org/play
+TypeScript is "JavaScript with syntax for types" as [described on the official website](https://www.typescriptlang.org/). The fastest way to use it is online with the TypeScript Playground: https://www.typescriptlang.org/play
 
 But since we're going to mimic using TS in real-life by building a real project, you'll want to know how to use it in your local development environment.
 
-The first tool we need is the TypeScript compiler. You can install it globally as a dependency or you can simply install it in the project.
+The first tool we need is the TypeScript compiler. You can install it globally as a dependency, or you can simply install it in the project.
 
 ```shell
 # With npm, globally
@@ -17,20 +17,20 @@ npm install -g typescript
 # With yarn, globally
 yarn global add typescript
 
-# Witn npm, locally
+# With npm, locally
 npm install -D typescript
 
-# Witn yarn, locally
+# With yarn, locally
 yarn add -D typescript
 ```
 
-This comes with the compiler CLI `tsc` which we'll be taking advantage of.
+We'll also be taking advantage of the included compiler CLI, `tsc`.
 
 Enough chatting though, let's give you a challenge to get your IDE ready for TypeScript'ing!
 
 ### Challenge
 
-Set up your IDE for TypeScript development. Here are some guides for you to follow depending on what you use.
+Set up your IDE for TypeScript development. Here are some guides for you to follow depending on what you use:
 
 - VS Code: built-in
 - JetBrains: built-in
@@ -46,8 +46,8 @@ Research other plugins or extensions that people recommend for TypeScript develo
 
 To check that you've completed the challenge, follow these steps:
 
-1. create a file called `hello.ts`
-2. add the following code:
+1. Create a file called `hello.ts`
+2. Add the following code:
 
 ```typescript
 function greet(name: string): string {
