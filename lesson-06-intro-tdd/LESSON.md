@@ -1,17 +1,17 @@
-## Introduction to TDD
+## Introduction to Test Driven Development
 
-The goal of this lesson is to introduce you to Test-Driven-Development, or better known as TDD.
+The goal of this lesson is to introduce you to Test Driven Development, better known as TDD.
 
 ### Intro
 
-I'm guessing you've heard of TDD. I like it because it promotes testing which then allows you to feel confident in your code.
+I'm guessing you've heard of TDD. I like it because it promotes testing, which then allows you to feel confident in your code.
 
-Some people are very strict about their definition but for us it's a bit more flexible. A basic example
+Some people are very strict about their definition, but for us it's a bit more flexible. Here's a basic example:
 
-1. write a test for a future feature
-2. implement new feature
+1. Write a test for a future feature
+2. Implement that new feature
 
-We're going to use that throughout our workshop today to build our library.
+We're going to use this approach throughout our workshop today to build our library.
 
 ### Challenge
 
