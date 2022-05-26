@@ -1,10 +1,10 @@
 ## Testing Setup
 
-The goal of this lesson is to set up the testing infrastructure so we can write tests for our project.
+The goal of this lesson is to set up the testing infrastructure for our project.
 
 ### Intro
 
-One crucial piece of learning any new piece of software is writing tests. While TypeScript provides static typing, there's still a need for tests.
+One crucial part of learning any new piece of software is writing tests. While TypeScript provides static typing, there's still a need for tests.
 
 Here we're going to set up everything for testing and write our first test.
 
@@ -12,17 +12,19 @@ We'll be using a tool called `ts-jest` which lets you write your tests in TypeSc
 
 ### Challenge
 
-For this challenge, you'll need to
+For this challenge, you'll need to set up `ts-jest` and write your first test.
 
 Here is an outline to guide you:
 
-1. Create folder at the root of `typescript-project-from-scratch`, initialize as git repo, and push up to GitHub/Gitlab/etc (suggested name: `@jsjoeio/streak-counter` but replace 'jsjoeio' with your username)
-2. Initialize project with npm/yarn
-3. Follow `ts-jest` [Getting Started](https://github.com/kulshekhar/ts-jest#getting-started)
-4. Create `__tests__` at root - this is where we'll keep our tests
-5. Add `"test": "jest"` to your `package.json` scripts if needed
+1. Create a folder at the root of `typescript-project-from-scratch` (suggested name: `@jsjoeio/streak-counter` but replace 'jsjoeio' with your username)
+2. Initialize the folder as git repo
+3. Push the repo up to GitHub/Gitlab/etc.
+4. Initialize the project with npm/yarn
+5. Follow `ts-jest` [Getting Started](https://github.com/kulshekhar/ts-jest#getting-started)
+6. Create `__tests__` at root - this is where we'll keep our tests
+7. Add `"test": "jest"` to your `package.json` scripts if needed
 
-After, create a file called `index.test.ts` with this and run `yarn test`:
+After you've done that, create a file called `index.test.ts` in the `__tests__` folder. Add the code below and then run `yarn test`:
 
 ```typescript
 describe("basic test", () => {
@@ -38,5 +40,5 @@ If everything worked, you should have a passing test! 🎉
 
 ### Extra Credit
 
-This is only one way to write tests in a TypeScript project. Most people are still using `ts-jest`. Read this post and try to understand what some folks are switching to:
+While most people are still using `ts-jest`, this isn't the only way to write tests in a TypeScript project. Read this post and try to understand what some folks are switching to:
 [Jest Babel to SWC](http://blog.joshuakgoldberg.com/jest-babel-to-swc/)
