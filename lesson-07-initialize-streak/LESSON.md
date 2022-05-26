@@ -1,12 +1,12 @@
-# Title
+# Initializing a Streak Counter
 
 The goal of this lesson is to write the logic to handle initializing a streak.
 
 ## Intro
 
-Referencing our flow diagram, one of the parts of the flow is initializing the streak. This happens when there is no streak already.
+Referencing our flow diagram, one of the parts of the flow is initializing the streak. This happens when a streak doesn't already exist.
 
-One of the first TypeScript concepts we're going to discuss is [Parameter Type Annotations](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#parameter-type-annotations). These are one of the most common and frequently used. This is when you annotate function parameters. Here is a basic example from the docs:
+One of the first TypeScript concepts we're going to discuss is one of the most common and frequently used, [Parameter Type Annotations](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#parameter-type-annotations). This is when you annotate function parameters. Here is a basic example from the docs:
 
 ```typescript
 // `greet` is a function
@@ -17,7 +17,7 @@ function greet(name: string) {
 }
 ```
 
-See how similar this is to JS? The only difference is the `: string` which is used to annotate the type.
+See how similar this is to JavaScript? The only difference is the `: string` used to annotate the type.
 
 If you passed the wrong type, TypeScript would compile with an error:
 
@@ -45,13 +45,13 @@ function printCoord(pt: Point) {
 printCoord({ x: 100, y: 100 });
 ```
 
-NOTE: later on you may hear talk about intefaces vs type aliases. Don't worry about that now (but keep it in mind for the future). If you're too eager to wait, read [this](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces).
+NOTE: later on you may hear talk about interfaces vs type aliases. Don't worry about that now, just keep it in mind for the future. If you're too eager to wait, read [this](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces).
 
-Great, we've discussed two basic concepts: parameter type annotations and interfaces. Let's put these to use and start working on our library!
+Great! We've discussed two basic concepts: parameter type annotations and interfaces. Let's put these to use and start working on our library!
 
 ### Challenge
 
-Using TDD, start building the streak counter so that it initializes, or returns a streak object.
+Using TDD, start building the streak counter so that it initializes or returns a streak object.
 
 You can copy these two files to get started:
 
@@ -76,8 +76,8 @@ describe("streakCounter", () => {
 
 Hints:
 
-- use this library for mocking `localStorage`: https://github.com/jsdom/jsdom
-- if you get stuck, ask for help.
+- Use this library for mocking `localStorage`: https://github.com/jsdom/jsdom
+- If you get stuck, ask for help
 
 ### Solution
 
@@ -85,4 +85,4 @@ Here is what mine looks like: https://gist.github.com/jsjoeio/5ca8f8cc8b3135b95d
 
 ### Extra Credit
 
-Imagine you're talking to a new JavaScript developer learning TypeScript. How would you explain _parameter type annotations_?
+Imagine you're talking to a new JavaScript developer who is learning TypeScript. How would you explain _parameter type annotations_?
