@@ -1,4 +1,4 @@
-# Title
+# TDD Reflection
 
 The goal of this lesson is stop and reflect on our TDD experience thus far.
 
@@ -6,7 +6,7 @@ The goal of this lesson is stop and reflect on our TDD experience thus far.
 
 TDD can take quite a bit of time to adjust to and it doesn't always feel productive. For instance, if you're building a brand new UI, it might feel tedious to write tests first rather than just code it up.
 
-Now that we've done it a little bit, let's discuss in our small groups then discuss as a whole group.
+Now that we've done it a little bit, let's discuss in our small groups and then discuss as a whole group.
 
 ### Challenge
 
@@ -21,7 +21,7 @@ No specific solutions here. Instead, we'll take turns sharing what our group tho
 
 ### Extra Credit
 
-If you have extra time, discuss this question:
+If you have extra time, discuss these questions:
 
 - Is this something you think you'll use moving forward? Why or why not?
 - Should TDD be used when teaching new languages and tools?

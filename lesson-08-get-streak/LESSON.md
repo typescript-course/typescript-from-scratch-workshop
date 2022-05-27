@@ -1,4 +1,4 @@
-# Title
+# Fetching a Streak Counter
 
 The goal of this lesson is write the logic that gets the streak if it already exists.
 
@@ -11,10 +11,10 @@ There are two problems with our current implementations:
 
 Oops!
 
-Thinking back to our flow chart, this is our library should work under the hood:
+Thinking back to our flow chart, this is how our library should work under the hood:
 
-- check if streak already exists - if so, return it
-- if not, initialize a new one
+- Check if streak already exists - if so, return it
+- If not, initialize a new one
 
 Let's make it happen!
 
@@ -42,8 +42,8 @@ describe("streakCounter", () => {
 
 Hints:
 
-- use a `try/catch` block when parsing JSON
-- don't forget to clear `localStorage` after each test
+- Use a `try/catch` block when parsing JSON
+- Don't forget to clear `localStorage` after each test
 
 ### Solution
 

@@ -1,4 +1,4 @@
-# Title
+# Incrementing a Streak Counter
 
 The goal of this lesson is to write the logic to increment our streak.
 
@@ -6,11 +6,11 @@ The goal of this lesson is to write the logic to increment our streak.
 
 Remember our flow chart? Well in this lesson we need to add the logic that will increment our streak.
 
-We first need to think about what logic we'll use to determine if an increment is the right move. Then we'll need logic to actually increment the streak and keep track of it.
+We first need to think about what logic we'll use to determine if an increment is the right move. Then we'll need logic to actually increment and keep track of the streak.
 
-To us, a streak is days in a row. For example, if you login on 5/21 and then again on 5/22, that's a streak of two days. But if you next login on 5/24, that is no longer a streak. So in order to track this we need a start date for the streak and a last login date, both of which we have.
+To us, a streak is days in a row. For example, if you log in on 5/21 and then again on 5/22, that's a streak of two days. But if you next login on 5/24, that is no longer a streak. So in order to track this we need a start date for the streak and a last login date, both of which we have.
 
-This is why we pass in `date` to our `streakCounter` function so that we can use it to check if the streak is still active.
+This is why we pass in `date` to our `streakCounter` function - so that we can use it to check if the streak is still active.
 
 One new TypeScript concept we're going to utilize is called a [string literal](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types). This is handy when you want to narrow a type from any `string` to specific strings. Let's look at an example:
 
@@ -24,13 +24,13 @@ printText("G'day, mate", "centre");
 // Argument of type '"centre"' is not assignable to parameter of type '"left" | "right" | "center"'.
 ```
 
-As you can see, the second parameter type can be 1 of 3 strings: "left", "right" or "center".
+As you can see, the second parameter type can be one of three strings: "left", "right" or "center".
 
-When someone tries to use it and uses the wrong type (or wrong spelling in this case), TS will complain that the types don't match. Super cool, right?
+When someone tries to use it, but uses the wrong type (or wrong spelling in this case), TS will complain that the types don't match. Super cool, right?
 
 There are two other TypeScript concepts I want to mention as well: [return type annotations](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#return-type-annotations) and [union types](typescriptlang.org/docs/handbook/2/everyday-types.html#union-types).
 
-Similar to parameter type annotations, return types are for the function retun type. Here's an example:
+Similar to parameter type annotations, return types are for the function return type. Here's an example:
 
 ```typescript
 function getFavoriteNumber(): number {
@@ -48,9 +48,9 @@ function printId(id: number | string) {
 }
 ```
 
-The | (pipe symbol as I say), indicates a union type. Here the parameter `id` can be of type `number` or `string`.
+The `|` (pipe symbol as I say), indicates a union type. Here, the parameter `id` can be of type `number` or `string`.
 
-Keep these concepts in mind for the next challenge! I used all 3 in my solution, but you don't have to.
+Keep these concepts in mind for the next challenge! I used all three in my solution, but you don't have to.
 
 ### Challenge
 
@@ -87,7 +87,7 @@ Here is the solution I came up with: https://gist.github.com/jsjoeio/08a304acdf8
 
 ### Extra Credit
 
-Imagine you're explaining this to a new JS developer learning TypeScript:
+Imagine you're explaining this to a new JavaScript developer learning TypeScript:
 
 - What are string literal types?
 - What are examples of ways you might use them?
