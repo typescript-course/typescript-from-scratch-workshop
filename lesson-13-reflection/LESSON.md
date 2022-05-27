@@ -1,4 +1,4 @@
-# Title
+# Project Reflection
 
 The goal of this lesson is to reflect on the library we wrote.
 
@@ -10,7 +10,7 @@ Like a retro in agile development, it's important to reflect on projects after y
 
 ### Challenge
 
-Discuss the following with your group:
+Discuss the following questions with your group:
 
 - What did you like about this project?
 - What felt slow or boring?
@@ -22,4 +22,4 @@ Now let's share with the entire group.
 
 ### Extra Credit
 
-Bonus discussion quesiton: how do you feel about TS so far? Do you think you'll adopt it in your organization or personal projects?
+Bonus discussion questions: how do you feel about TS so far? Do you think you'll adopt it in your organization or personal projects?
