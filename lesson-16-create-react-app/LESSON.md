@@ -1,4 +1,4 @@
-## Create React App
+## Creating a React App
 
 The goal of this lesson is to use our published library in production by adding it to a React app.
 
