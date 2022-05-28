@@ -29,6 +29,23 @@ Buckle up - you're in for a ride!
     1. Recording a demo for your README
 
 
+## Workshop Schedule
+
+If you're taking the workshop in person, here's what the schedule will look like:
+
+| Time | Block Type | Length | Topic |
+| --- | --- | --- | --- |
+| 10:00-10:15am | Break | 15mins | Arrive and mingle |
+| 10:15-11:15am | Content | 60mins | Lessons 1-4 |
+| 11:15-11:30am | Break | 15mins | Coffee/Snacks |
+| 11:30am-12:30pm | Content | 60mins | Lessons 5-8 |
+| 12:30-1:30pm | Break | 60mins | Lunch |
+| 1:30-2:45pm | Content | 75mins | Lessons 9-13 |
+| 2:45pm-3:45pm | Break | 15mins | Coffee/Snacks |
+| 3:45pm-4:45pm | Content | 60mins | Lessons 14-17 |
+| 4:45pm-5:00pm | Break | 15min | Leave and mingle |
+
+
 ## 👋🏼Hey, I'm Joe!
 
 I'll be your instructor for this TypeScript workshop. It's nice to meet you.
