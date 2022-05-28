@@ -1,8 +1,18 @@
 # typescript-project-from-scratch
 
-**Workshop Skeleton**
+# 🔧 Building a TypeScript Project from Scratch
 
-Topic: Building a TypeScript Project from Scratch
+Thanks for joining my workshop today! I'm very excited for us today. This workshop is jam-packed with real-world TypeScript lessons.
+
+Things we'll be doing:
+- setting up a TypeScript project from scratch
+- using test-driven-development to build a library
+- publish our library on npm
+- consume on library in a React app
+
+Buckle up - you're in for a ride!
+
+## Workshop Outline
 
 1. Setting up the project
     1. Getting to know your tools (tsc, intellisense)
@@ -17,19 +27,6 @@ Topic: Building a TypeScript Project from Scratch
     2. Publishing your code as an npm package
 4. Using your code in the real-world
     1. Recording a demo for your README
-
-
-# 🔧 Building a TypeScript Project from Scratch
-
-Thanks for joining my workshop today! I'm very excited for us today. This workshop is jam-packed with real-world TypeScript lessons.
-
-Things we'll be doing:
-- setting up a TypeScript project from scratch
-- using test-driven-development to build a library
-- publish our library on npm
-- consume on library in a React app
-
-Buckle up - you're in for a ride!
 
 
 ## 👋🏼Hey, I'm Joe!
