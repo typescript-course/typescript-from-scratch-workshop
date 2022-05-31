@@ -8,7 +8,7 @@ TypeScript is "JavaScript with syntax for types" as [described on the official w
 
 But since we're going to mimic using TS in real-life by building a real project, you'll want to know how to use it in your local development environment.
 
-The first tool we need is the TypeScript compiler. You can install it globally as a dependency, or you can simply install it in the project.
+The first tool we need is the TypeScript compiler. You can install it globally as a dependency, or you can simply install it in a throwaway folder:
 
 ```shell
 # With npm, globally
@@ -24,7 +24,7 @@ npm install -D typescript
 yarn add -D typescript
 ```
 
-We'll also be taking advantage of the included compiler CLI, `tsc`.
+We'll also be taking advantage of the included compiler CLI, `tsc`. For instance, run `yarn tsc --init` to create a basic `tsconfig.json` if you went with the local project route or `tsc --init` if you installed it globally.
 
 Enough chatting though, let's give you a challenge to get your IDE ready for TypeScript'ing!
 
@@ -38,10 +38,6 @@ Set up your IDE for TypeScript development. Here are some guides for you to foll
 - Vim: [Setting Up Vim For TypeScript in 2020](https://www.vimfromscratch.com/articles/setting-up-vim-for-typescript)
 - Emacs: [Setting up emacs for typescript development](https://willschenk.com/articles/2021/setting_up_emacs_for_typescript_development/)
 
-#### Extra Credit
-
-Research other plugins or extensions that people recommend for TypeScript development in your IDE. Be prepared to share with the group after!
-
 ### Solution
 
 To check that you've completed the challenge, follow these steps:
@@ -51,10 +47,14 @@ To check that you've completed the challenge, follow these steps:
 
 ```typescript
 function greet(name: string): string {
-  return `Hello, ${name}!`;
+  return `Hello, ${name}!`
 }
 
-greet();
+greet()
 ```
 
 If you have your editor set up correctly, you should have some feedback (i.e. red squiggly line under `greet`) letting you know you forgot to pass an argument of type `string` to `greet()`.
+
+#### Extra Credit
+
+Research other plugins or extensions that people recommend for TypeScript development in your IDE. Be prepared to share with the group after!
