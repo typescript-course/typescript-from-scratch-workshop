@@ -43,10 +43,9 @@ If you're taking the workshop in person, here's what the schedule will look like
 | 1:15-1:30pm   | Break      | 15mins | Coffee/Snacks     |
 | 1:30-2:45pm     | Content    | 75mins | Lessons 9-11      |
 | 2:45pm-3:00pm   | Break      | 15mins | Coffee/Snacks     |
-| 3:00pm-4:00pm   | Content    | 60mins | Lessons 12-15     |
-| 4:00pm-4:15pm   | Break      | 15min  | Coffee and snacks  |
-| 3:00pm-4:00pm   | Content    | 30mins | Lessons 16-17     |
-| 4:45pm-5:00pm   | Break      | 15min  | Leave and mingle  |
+| 3:00pm-4:15pm   | Content    | 75mins | Lessons 12-15     |
+| 4:15pm-4:30pm   | Break      | 15min  | Coffee and snacks  |
+| 4:30pm-5:00pm   | Content    | 30mins | Lessons 16-17     |
 
 ## 👋🏼 Hey, I'm Joe!
 

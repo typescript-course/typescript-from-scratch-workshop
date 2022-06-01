@@ -13,8 +13,7 @@ Let's talk about exposing your types. There are two approaches people take in th
 
 There are pros/cons to both. Since our library is tiny, we're going to publish the types with it. To do this, you need to:
 
-1. Make sure `emit` is set to `true` in your `tsconfig.json` to emit the declaration file
-2. Set the `types` field in your `package.json` (read more [here](https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html#including-declarations-in-your-npm-package))
+1. Set the `types` field in your `package.json` (read more [here](https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html#including-declarations-in-your-npm-package))
 
 Be extra careful that you only export the `streakCounter` function in the `src/index.ts` file. Otherwise, anything else exported there will be available to the end consumer.
 
@@ -24,7 +23,7 @@ Alright, let's prep this lib for release!
 
 Using `microbundle`, prep your package for release. Suggestions:
 
-1. Fill out the common `package.jsaon` fields like repo, author, etc.
+1. Fill out the common `package.json` fields like repo, author, etc.
 2. Follow `microbundle`'s getting started [here](https://github.com/developit/microbundle#using-with-typescript)
 3. Make sure to use an `.npmignore` (read more [here](https://npm.github.io/publishing-pkgs-docs/publishing/the-npmignore-file.html))
 

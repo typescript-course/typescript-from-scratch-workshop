@@ -62,3 +62,17 @@ increment streak - going over 10mins
 also issue with test? not pasing in "12/12/2021" to `new Date()` call
 
 Update extra credit in reset streak - don't mention Partial utility
+
+question "are functions that aren't exported, are they private?" came up during the clean up lesson 12
+
+didn't really have time for extra credit...
+
+what would you like to know more about?
+more about partial types
+migrating a non-TS codebase -> to TS.
+
+lesson 14 needs updates.
+
+tell people to commit and push up as they're going...
+
+15 took longer than 10 mins

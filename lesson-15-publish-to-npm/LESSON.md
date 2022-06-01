@@ -18,7 +18,7 @@ For this challenge, you have a few mini-tasks:
 
 1. Sign up for an npm account (free) [here](https://www.npmjs.com/signup)
 2. Add your token to your repo secrets as `NPM_TOKEN`
-3. Publish with [GitHub Action](https://github.com/JS-DevTools/npm-publish)
+3. Publish with [GitHub Action](https://githu.com/JS-DevTools/npm-publish)
 
 If at any point you get stuck, ask for help.
 
