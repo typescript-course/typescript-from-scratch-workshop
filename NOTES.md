@@ -24,3 +24,41 @@ Lesson 4 example for challenge: https://excalidraw.com/#json=0mtnl6904HNaeT6ELf6
 Exacalidraw lesson - tell people that it will reset if they load from a URL. So save first...
 
 Pace feels good. Sometimes people finish early. Not a ton of people doing extra credit AFAIK but that's okay! Having tables in groups has encouraged people to chat more which is great...
+
+for lesson 5, explain how to init with npm/yarn `npm` or `yarn`
+
+issues using `mkdir @jsjoeio/streak-counter` 
+make sure to `cd` before initializing 
+question about the convetions around `__tests__`
+
+issues with TypeScript not finding Jest definitions (looking in root root). To fix, you have to open 
+
+missing still? make sure you have `tsconfig.json`
+
+lesson 5 taking about 20-30mins (issues with npm/yarn, ts and github)
+
+
+TDD lesson...might want to slim down. Kinda overwhelming having to write that many tests. Might be better to do 1-2...
+
+for the initialize streak lesson, fill out the tests for them. too much work writing tests AND writing code...
+
+initialize streak...we're not using storage. why?
+
+a bunch of issues because we forgot to create `tsconfig.json`
+
+lesson 8 question "should we be overwriting previous tests?"
+
+other issues, forgetting to create `tsconfig.json` or forgetting to install `@types/jsom`
+
+TDD lessons are taking more than 10mins each...
+
+questions about `localStorage`: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+
+double check that all the gists are updated (I know I updated a few)
+
+question about string literal vs enums...which to use?
+
+increment streak - going over 10mins
+also issue with test? not pasing in "12/12/2021" to `new Date()` call
+
+Update extra credit in reset streak - don't mention Partial utility
