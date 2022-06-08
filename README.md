@@ -2,7 +2,7 @@
 
 # 🔧 Building a TypeScript Project from Scratch
 
-Thanks for joining my workshop today! I'm very excited for us today. This workshop is jam-packed with real-world TypeScript lessons.
+Thanks for joining my workshop! I have an exciting plan for us. This workshop is jam-packed with real-world TypeScript lessons.
 
 Things we'll be doing:
 
