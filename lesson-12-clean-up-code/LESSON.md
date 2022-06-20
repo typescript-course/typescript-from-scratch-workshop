@@ -50,6 +50,8 @@ Here are your tasks:
 - Create a new file `src/lib.ts` and move anything that's exported inside `src/index.ts` here. Do this because we give the end user access to anything exported in `src/index.ts` and we only want that to be the `streakCounter` function.
 - Write a function called `buildStreak` that builds a streak but allows you to override default values (a `Partial` can help here)
 
+NOTE: only exported functions in `src/index.ts` will be exposed to users. 
+
 ### Solution
 
 Here is what I came up with: https://gist.github.com/jsjoeio/ae6e553213bb6bbef99e15c131dfef68
