@@ -16,6 +16,8 @@ Your challenge for this lesson is to use [Excalidraw](https://excalidraw.com/), 
 - Check if streak exists
 - Initialize, update or reset streak
 
+And here is an example for inspiration: https://excalidraw.com/#json=0mtnl6904HNaeT6ELf6T8,s_uKtfNN1ibsrdmmgbrMZA
+
 Good luck!
 
 ### Solution
