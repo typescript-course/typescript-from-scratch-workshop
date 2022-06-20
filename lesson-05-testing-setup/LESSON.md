@@ -22,8 +22,9 @@ Here is an outline to guide you:
 3. Push the repo up to GitHub/Gitlab/etc.
 4. Initialize the project with npm/yarn: `npm init -y` or `yarn init -y`
 5. Follow `ts-jest` [Getting Started](https://github.com/kulshekhar/ts-jest#getting-started)
-6. Create `__tests__` at root - this is where we'll keep our tests
-7. Add `"test": "jest"` to your `package.json` scripts if needed
+6. Create your TypeScript config by running `./node_modules/typescript/tsc/bin --init` or `yarn tsc --init`
+7. Create `__tests__` at root - this is where we'll keep our tests
+8. Add `"test": "jest"` to your `package.json` scripts if needed
 
 After you've done that, create a file called `index.test.ts` in the `__tests__` folder. Add the code below and then run `yarn test`:
 
