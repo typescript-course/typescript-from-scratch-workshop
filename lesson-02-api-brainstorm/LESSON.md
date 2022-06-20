@@ -6,7 +6,7 @@ The goal of this lesson is to practice designing a public API.
 
 When you're designing a public API, especially a library, you really want to think about the end user.
 
-Let's take a second to look at one example most of you may be familiar with: Jest.
+Let's take a second to look at one example most of you may be familiar with: [Jest](https://jestjs.io).
 
 ```typescript
 import { sum } from "../src/sum";
@@ -28,9 +28,12 @@ expect(<someValue>).assertion(<expectedValue>)
 
 ### Challenge
 
-Come up with five API designs for a points counter that an end user would display in a UI like this: ["0 points"](https://nextjs.org/learn/foundations/about-nextjs)
+Come up with five API designs for a points counter that an end user would display in a UI like this: ["0 points"](https://nextjs.org/learn/foundations/about-nextjs). By API designs, I mean "pseudo-code" of how a developer would use your API, i.e.:
+```typescript
+const score = useScore({})
+```
 
-Don't worry too much about how it works under the hood. Instead focus on what a developer would want when using your library.
+Don't worry too much about how it works under the hood. Instead focus on what the ideal API would look like.
 
 ### Solution
 
