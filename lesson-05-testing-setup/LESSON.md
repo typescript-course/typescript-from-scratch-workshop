@@ -19,7 +19,7 @@ Here is an outline to guide you:
 1. Create a folder at the root of `typescript-project-from-scratch` (suggested name: `@jsjoeio/streak-counter` but replace 'jsjoeio' with your username)
 2. Initialize the folder as git repo
 3. Push the repo up to GitHub/Gitlab/etc.
-4. Initialize the project with npm/yarn
+4. Initialize the project with npm/yarn: `npm init -y` or `yarn init -y`
 5. Follow `ts-jest` [Getting Started](https://github.com/kulshekhar/ts-jest#getting-started)
 6. Create `__tests__` at root - this is where we'll keep our tests
 7. Add `"test": "jest"` to your `package.json` scripts if needed
