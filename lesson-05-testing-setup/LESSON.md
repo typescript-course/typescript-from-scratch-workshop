@@ -16,7 +16,7 @@ For this challenge, you'll need to set up `ts-jest` and write your first test.
 
 Here is an outline to guide you:
 
-1. Create a folder at the root of `typescript-project-from-scratch` (suggested name: `@jsjoeio/streak-counter` but replace 'jsjoeio' with your username)
+1. Create a folder at the root of `typescript-project-from-scratch` (suggested name: `streak-counter`)
 2. Initialize the folder as git repo
 3. Push the repo up to GitHub/Gitlab/etc.
 4. Initialize the project with npm/yarn: `npm init -y` or `yarn init -y`
