@@ -79,6 +79,9 @@ Hints:
 - Use this library for mocking `localStorage`: https://github.com/jsdom/jsdom
 - If you get stuck, ask for help
 
+
+NOTE: you might be wondering why we're not using `localStorage` yet in this lesson. Don't worry! We'll make use of it later. This just lays the groundwork for that.
+
 ### Solution
 
 Here is what mine looks like: https://gist.github.com/jsjoeio/5ca8f8cc8b3135b95daba0d8f5869083
