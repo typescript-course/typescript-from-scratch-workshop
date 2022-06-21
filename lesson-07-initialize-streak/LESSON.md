@@ -77,6 +77,7 @@ describe("streakCounter", () => {
 Hints:
 
 - Use this library for mocking `localStorage`: https://github.com/jsdom/jsdom
+  - If you haven't worked with `localStorage` before, read more [here](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 - Don't forget to add `@types/jsdom` as a dependency! 
 - If you get stuck, ask for help
 
