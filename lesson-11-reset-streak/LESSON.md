@@ -23,15 +23,46 @@ describe("streakCounter", () => {
 
   // Separate suite to test different scenario
   describe("with a pre-populated streak", () => {
-    // TODO: populate localStorage with a streak
+    // previous test setup omitted...
     it("should reset if not consecutive", () => {
-      // TODO: implement
+      const date = new Date("12/13/2021");
+      const streak = streakCounter(mockLocalStorage, date);
+
+      expect(streak.currentCount).toBe(2);
+
+      // Skip a day and break the streak
+      const dateUpdated = new Date("12/15/2021");
+      const streakUpdated = streakCounter(mockLocalStorage, dateUpdated);
+
+      expect(streakUpdated.currentCount).toBe(1);
     });
     it("should not reset the streak for same-day login", () => {
-      // TODO: implement
+      const date = new Date("12/13/2021");
+      // Call it once so it updates the streak
+      streakCounter(mockLocalStorage, date);
+
+      // Simulate same-day login
+      const dateUpdated = new Date("12/13/2021");
+      const streakUpdated = streakCounter(mockLocalStorage, dateUpdated);
+
+      expect(streakUpdated.currentCount).toBe(2);
     });
     it("should save the reset streak to localStorage", () => {
-      // TODO: implement
+      const key = "streak";
+      const date = new Date("12/13/2021");
+      // Call it once so it updates the streak
+      streakCounter(mockLocalStorage, date);
+
+      // Skip a day and break the streak
+      const dateUpdated = new Date("12/15/2021");
+      const streakUpdated = streakCounter(mockLocalStorage, dateUpdated);
+
+      const streakAsString = mockLocalStorage.getItem(key);
+      // Normally you should wrap in try/catch in case the JSON is bad
+      // but since we authored it, we can skip here
+      const streak = JSON.parse(streakAsString || "");
+
+      expect(streak.currentCount).toBe(1);
     });
   });
 });
