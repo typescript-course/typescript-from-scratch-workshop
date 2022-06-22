@@ -25,16 +25,47 @@ Using TDD, complete these tests by making the appropriate changes to your `strea
 ```typescript
 // File: __tests__/index.test.ts
 describe("streakCounter", () => {
+  afterEach(() => {
+    mockLocalStorage.clear();
+  });
   // previous tests omitted to keep code block short
   it("should store the streak in localStorage", () => {
-    // TODO: implement
+    const date = new Date();
+    const key = "streak";
+    streakCounter(mockLocalStorage, date);
+
+    const streakAsString = mockLocalStorage.getItem(key);
+    expect(streakAsString).not.toBeNull();
   });
 
   // Separate suite to test different scenario
   describe("with a pre-populated streak", () => {
-    // TODO: populate localStorage with a streak
+    let mockLocalStorage: Storage;
+    beforeEach(() => {
+      const mockJSDom = new JSDOM("", { url: "https://localhost" });
+
+      mockLocalStorage = mockJSDom.window.localStorage;
+
+      // Use date in past so it’s always the same
+      const date = new Date("12/12/2021");
+
+      const streak = {
+        currentCount: 1,
+        startDate: formattedDate(date),
+        lastLoginDate: formattedDate(date),
+      };
+
+      mockLocalStorage.setItem("streak", JSON.stringify(streak));
+    });
+    afterEach(() => {
+      mockLocalStorage.clear();
+    });
     it("should return the streak from localStorage", () => {
-      // TODO: implement
+      const date = new Date();
+      const streak = streakCounter(mockLocalStorage, date);
+
+      // Should match the dates used to set up the tests
+      expect(streak.startDate).toBe("12/12/2021");
     });
   });
 });
