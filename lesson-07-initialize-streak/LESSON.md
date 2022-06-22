@@ -64,23 +64,49 @@ export function streakCounter(storage: Storage, date: Date) {
 
 ```typescript
 // File: __tests__/index.test.ts
+import { JSDOM } from "jsdom";
+import { streakCounter } from "../src/index";
+
+export function formattedDate(date: Date): string {
+  return date.toLocaleDateString("en-US");
+}
+
 describe("streakCounter", () => {
+  let mockLocalStorage: Storage;
+
+  beforeEach(() => {
+    const mockJSDom = new JSDOM("", { url: "https://localhost" });
+
+    mockLocalStorage = mockJSDom.window.localStorage;
+  });
+
   it("should return a streak object with currentCount, startDate and lastLoginDate", () => {
-    // TODO: implement
+    const date = new Date();
+    const streak = streakCounter(mockLocalStorage, date);
+
+    expect(streak.hasOwnProperty("currentCount")).toBe(true);
+    expect(streak.hasOwnProperty("startDate")).toBe(true);
+    expect(streak.hasOwnProperty("lastLoginDate")).toBe(true);
   });
   it("should return a streak starting at 1 and keep track of lastLoginDate", () => {
-    // TODO: implement
+    const date = new Date();
+    const streak = streakCounter(mockLocalStorage, date);
+
+    const dateFormatted = formattedDate(date);
+
+    expect(streak.currentCount).toBe(1);
+    expect(streak.lastLoginDate).toBe(dateFormatted);
   });
 });
 ```
+
+**Don't forget to install `jsdom` and `@types/jsdom` as dev dependencies!**
 
 Hints:
 
 - Use this library for mocking `localStorage`: https://github.com/jsdom/jsdom
   - If you haven't worked with `localStorage` before, read more [here](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-- Don't forget to add `@types/jsdom` as a dependency! 
 - If you get stuck, ask for help
-
 
 NOTE: you might be wondering why we're not using `localStorage` yet in this lesson. Don't worry! We'll make use of it later. This just lays the groundwork for that.
 
