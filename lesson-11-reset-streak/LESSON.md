@@ -70,7 +70,7 @@ describe("streakCounter", () => {
 
 ### Solution
 
-Here is what I came up with: [https://gist.github.com/jsjoeio/e74f2c365972d79f72c837379265dc7a](https://gist.github.com/jsjoeio/e74f2c365972d79f72c837379265dc7a)
+Here is what I came up with: https://gist.github.com/jsjoeio/e74f2c365972d79f72c837379265dc7a
 
 ### Extra Credit
 
